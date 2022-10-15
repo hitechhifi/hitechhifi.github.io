@@ -1,10 +1,9 @@
 ---
 layout: post
-title: You're up and running!
+title: Pardon our dust...
+published: true
 ---
+I've been updating vmikeb.com with a much needed "complete overhaul" and am transitioning all content from Wordpress to Jekyll. Please be patient while I bang my head against a wall wondering "why didn't I do this while I was on vacation?"
 
-Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).
+![cat.jpg]({{site.baseurl}}/_posts/cat.jpg)
 
-![_config.yml]({{ site.baseurl }}/images/config.png)
-
-The easiest way to make your first post is to edit this one. Go into /_posts/ and update the Hello World markdown file. For more instructions head over to the [Jekyll Now repository](https://github.com/barryclark/jekyll-now) on GitHub.
