@@ -7,7 +7,7 @@ Quick post for a neat little project I whipped up in no time today: a “get me 
 
 Let’s start with “The Internet of Things” -this is a very generic term to describe the modern day ability of wireless connectivity being applied to “things”. Refrigerators, toasters, cars, washer/dryers, alarm clocks, and even clicky-buttons that can order you Tide, amongst other things. Basically:
 
-![1x9y37.jpg]({{site.baseurl}}/_posts/1x9y37.jpg)
+![1x9y37.jpg]({{site.baseurl}}/images/1x9y37.jpg)
 
 
 Amazon made [IoT buttons](https://aws.amazon.com/iotbutton/) available in March of 2015, and one of my [coworkers](https://twitter.com/StevePantol) had waaaay too much fun with harassing another fellow [coworker](https://twitter.com/eric_shanks) via an IoT button and Slack integration. No really, the  [insult generator](http://stevedotnet.com/fun-with-the-aws-iot-button/) is probably one of my favorite hacked together pieces of “hilarity ensues” and made my first few weeks at Ahead even better.
@@ -16,7 +16,7 @@ Fast forward to now, where two years later we have an 18 month old who sleeps an
 
 Why is this important? People forget things when they’ve been chasing a child all day long. Sometimes you forget where your phone is, and now your kid wants a nap and you’re stuck nursing him to sleep for an hour. Sometimes you forget where your book is, and same event happens. Maybe you don’t know where your glasses are… etc. Problematic when you're running on few hours of sleep, yes?
 
-![aws_iot_button.png]({{site.baseurl}}/_posts/aws_iot_button.png)
+![aws_iot_button.png]({{site.baseurl}}/images/aws_iot_button.png)
 
 
 “Do the thing, Internet of Thing(s) button!”
