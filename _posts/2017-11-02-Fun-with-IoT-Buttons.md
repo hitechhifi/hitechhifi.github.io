@@ -30,39 +30,50 @@ Essentially I took action to place an IoT button in our bedroom that’s accessi
 
 So what does the code look like?
 ```
+//declare those variables!
 'use strict';
 
+//we'll use AWS' available SDK - use a current one if possible
 const AWS = require('aws-sdk');
 const SNS = new AWS.SNS({ apiVersion: '2010-03-31' });
 const PHONE\_NUMBER = '1-555-876-5309'; // Your number goes here
 
+//define an event handler
 exports.handler = (event, context, callback) => {
  
+//it's good to log things
 console.log('Received event:', event);
 console.log(\`Sending SMS to ${PHONE\_NUMBER}\`);
  
- //uses randomizer to select one of the predefined messages
+ // select one of the predefined messages
  var singleClick = 'Water Please!';
  var doubleClick = 'I lost my phone, help!';
  var longClick = 'ERROR-404: WIFE NOT FOUND';
- var randomMessage = singleClick;
+ 
+ //we can safely assume single click as default
+ var resultMessage = singleClick;
  
  if(event.clickType == "DOUBLE"){
- randomMessage = doubleClick;
+ resultMessage = doubleClick;
  };
  if(event.clickType == "LONG"){
- randomMessage = longClick;
+ resultMessage = longClick;
  };
  
+ //populate our array with appropriate variables
  const params = {
  PhoneNumber: PHONE\_NUMBER,
- Message: randomMessage,
+ Message: resultMessage,
  };
+ 
  // result will go to function callback
  SNS.publish(params, callback);
 };
 ```
-There’s nothing complicated behind doing this; even if you don’t know JavaScript, all you have to do is replace [Jenny’s phone number](https://youtu.be/6WTdTwcmxyo) above with your own, and then change the value of the strings after the vars “singleClick” “doubleClick” and “longClick” to whatever message you want.
+
+Coding projects like this don't have to be owned only by grey-beard, old-hat JS hackers - I greatly believe in standing on the shoulders of giants. Understand the concepts, have a basic knowlege of coding, and the rest falls into place here.
+
+There’s nothing complicated behind making this project your own; even if you don’t know JavaScript, all you have to do is replace [Jenny’s phone number](https://youtu.be/6WTdTwcmxyo) above with your own, and then change the value of the strings after the vars “singleClick” “doubleClick” and “longClick” to whatever message you want.
 
 Anything I can do to learn more and make my house a happy home – made this an easy vacation project!
 
