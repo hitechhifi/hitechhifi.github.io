@@ -1,7 +1,7 @@
 ---
 published: true
 ---
-## How I made my life easier, with the push of a button
+or "How I made my life easier, with the push of a button"
 
 Quick post for a neat little project I whipped up in no time today: a “get me my stuff” button thanks to a Amazon IoT button and Lambda functions, or serverless compute for the cool kids out there.
 
