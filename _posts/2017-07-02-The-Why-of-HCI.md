@@ -24,7 +24,7 @@ Why give this example? Well with a train, I can add more engines (compute) witho
 
 Nice beard, Goliath! How about a little off the top?
 
-Much like the “virtualization isn’t ready” comment above, I have heard all throughout 2015 that HCI isn’t ready for lift-off, even though HCI sprouted its first wings nearly a decade ago. Common misconceptions abounded, from “linear scale/growth isn’t how data centers grow” to “the technology is too immature” or “why trust a startup vendor?” Now in the past year, major vendors made some radical marketing pushes, and the gloves have come off – igniting more than a few David and Goliath battles in the HCI space between strong incumbents and newcomers alike.
+Much like the “virtualization isn’t ready” comment above, I have heard all throughout my career that HCI isn’t ready for lift-off, even though HCI sprouted its first wings more than a decade ago. Common misconceptions abounded, from “linear scale/growth isn’t how data centers grow” to “the technology is too immature” or “why trust a startup vendor?” Now in the past year, major vendors made some radical marketing pushes, and the gloves have come off – igniting more than a few David and Goliath battles in the HCI space between strong incumbents and newcomers alike.
 
 Automation and Orchestration, DevOps, Continuous Development and Continuous Integration (CI/CD), and private/hybrid cloud efforts have all created opportunity to help IT move as quickly as the business demands. This is commonly referred to as “at the speed of business,” but I’ve consulted for enough businesses to know that this speed is quite variable indeed!
 
