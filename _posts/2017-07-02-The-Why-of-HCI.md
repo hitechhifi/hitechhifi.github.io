@@ -1,9 +1,6 @@
 ---
 published: true
 ---
-The “why” of HCI
-================
-
 Helping businesses solve problems and make well informed decisions has been my job for the better part of the last decade. While I find this ultimately enjoyable, there still remains quite a bit of misinformation in the field: just a few months ago a customer informed me that “virtualization just isn’t ready for production environments.” – this, after almost 20 years of x86 virtualization!
 
 ![omg-1934214-300x200.jpg]({{site.baseurl}}/images/omg-1934214-300x200.jpg)
