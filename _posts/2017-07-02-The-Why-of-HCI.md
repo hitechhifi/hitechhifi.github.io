@@ -45,7 +45,7 @@ So why do you care? Lifecycle management is made much easier by allowing nodes t
 
 Lead time to delivery on commodity hardware (servers and hard disks) is also much shorter than lead time on enterprise SAN arrays, full racks of disks (DAE’s), etc.  So from a project perspective, you are already saving yourself weeks of time just by adopting a rapidly deployable, scale-out model.
 
-![business people standing in the dark, with colored arrows going  upward behind them]({{site.baseurl}}/_posts/arrows-1915360-300x200.jpg)
+![business people standing in the dark, with colored arrows going  upward behind them]({{site.baseurl}}/images/arrows-1915360-300x200.jpg)
 
 Can we get some light in here?
 
