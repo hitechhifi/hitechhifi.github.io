@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 Amazon IoT Buttons and Lambda, or “How I made my life easier, with the push of a button”
 ========================================================================================
