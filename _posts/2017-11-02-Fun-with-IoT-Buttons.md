@@ -26,7 +26,7 @@ Essentially I took action to place an IoT button in our bedroom that’s accessi
 1.  Not wanting to re-create the wheel, I followed [this blog](https://www.hackster.io/33996/the-i-miss-you-iot-button-b0112a) on how to register and setup an IoT button
 2.  I modified their code to do what I wanted in a simple  fashion.
 3.  I tested this code.
-4.  It worked!
+4.  It worked, so I pushed to prod on a Friday!
 
 So what does the code look like?
 ```
